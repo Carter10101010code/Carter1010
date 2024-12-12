@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotless Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #0056b3;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background-color: #e9ecef;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+            background-color: #f8f9fa;
+        }
+        .service {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 1rem;
+            padding: 1rem;
+            text-align: center;
+            width: 250px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .contact {
+            padding: 2rem;
+            text-align: center;
+        }
+        footer {
+            background-color: #007BFF;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Spotless Solutions</h1>
+        <p>Your trusted partner for window, gutter, and solar panel cleaning!</p>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#about">About Us</a>
+    </nav>
+    <section class="hero">
+        <h2>Welcome to Spotless Solutions!</h2>
+        <p>We make your home shine like never before. Let us handle the mess while you relax!</p>
+        <button>Get a Free Quote</button>
+    </section>
+    <section id="services" class="services">
+        <div class="service">
+            <h3>Window Cleaning</h3>
+            <p>Crystal-clear windows, every time. Our top-notch service ensures a streak-free shine.</p>
+        </div>
+        <div class="service">
+            <h3>Gutter Cleaning</h3>
+            <p>Keep your gutters clean and functional with our professional service.</p>
+        </div>
+        <div class="service">
+            <h3>Solar Panel Cleaning</h3>
+            <p>Boost your solar efficiency with our expert panel cleaning services.</p>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need a quote? Reach out to us:</p>
+        <p>Email: contact@spotlesssolutions.com</p>
+        <p>Phone: (555) 123-4567</p>
+        <button>Send a Message</button>
+    </section>
+    <footer>
+        <p>&copy; 2024 Spotless Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
